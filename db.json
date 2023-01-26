@@ -1,11 +1,90 @@
 {
   "organizations": [
-    { "id": 1, "title": "Organization 1" },
-    { "id": 2, "title": "Organization 2" },
-    { "id": 3, "title": "Organization 3" }
+    {
+"id": 1,
+  "name": "Oganization 1",
+  "address": "1 Bob St.",
+  "phone": "+13211111111",
+  "city": "New York",
+  "status": "ACTIVE"
+  
+},
+ {
+"id": 2,
+  "name": "Oganization 2",
+  "address": "2 Bob St.",
+  "phone": "+13212222222",
+  "city": "Las Vegas",
+  "status": "ACTIVE"
+  
+},
+ {
+"id": 3,
+  "name": "Oganization 3",
+  "address": "3 Bob St.",
+  "phone": "+13213333333",
+  "city": "Chicago",
+  "status": "ACTIVE"
+  
+}
+   
   ],
   "clientusers": [
-    { "id": 1, "body": "Client User 1", "organizationId": 1 },
-    { "id": 2, "body": "Client User 1", "organizationId": 1 }
+    {
+        "id": 1,
+        "name": "David 1",
+        "address": "1 Bob St.",
+        "phone": "+13211111111",
+        "city": "New York",
+        "status": "ACTIVE",
+        "orgId": 1
+      },
+      {
+        "id": 2,
+        "name": "David 2",
+        "address": "1 Bob St.",
+        "phone": "+13211111111",
+        "city": "New York",
+        "status": "ACTIVE",
+        "orgId": 1
+      },
+      {
+        "id": 3,
+        "name": "David 3",
+        "address": "1 Bob St.",
+        "phone": "+13211111111",
+        "city": "Las Vegas",
+        "status": "ACTIVE",
+        "orgId": 2
+      },
+      {
+        "id": 4,
+        "name": "David 4",
+        "address": "1 Bob St.",
+        "phone": "+13211111111",
+        "city": "Las Vegas",
+        "status": "ACTIVE",
+        "orgId": 2
+      },
+      {
+        "id": 5,
+        "name": "David 5",
+        "address": "1 Bob St.",
+        "phone": "+13211111111",
+        "city": "Chicago",
+        "status": "ACTIVE",
+        "orgId": 3
+      },
+      {
+        "id": 6,
+        "name": "David 6",
+        "address": "1 Bob St.",
+        "phone": "+13211111111",
+        "city": "Chicago",
+        "status": "ACTIVE",
+        "orgId": 3
+      }
+      
+
   ]
 }
