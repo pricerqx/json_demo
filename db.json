@@ -1,10 +1,10 @@
 {
-  "organization": [
+  "organizations": [
     { "id": 1, "title": "Organization 1" },
     { "id": 2, "title": "Organization 2" },
     { "id": 3, "title": "Organization 3" }
   ],
-  "clientuser": [
+  "clientusers": [
     { "id": 1, "body": "Client User 1", "organizationId": 1 },
     { "id": 2, "body": "Client User 1", "organizationId": 1 }
   ]
